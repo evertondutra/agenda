@@ -20,4 +20,4 @@ class Evento(models.Model):
         return self.titulo
 
     def get_date_evento(self):
-        return self.date_evento.strftime('%d/%m/%Y')
+        return self.date_evento.strftime('%d/%m/%Y %H:%M Hrs')
